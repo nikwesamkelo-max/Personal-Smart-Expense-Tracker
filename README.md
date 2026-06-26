@@ -1,11 +1,11 @@
 📊 Smart Expense Tracker API
 A simple backend API built with FastAPI + SQLite to track and manage personal expenses.
- Features
+🚀 Features
 Add expenses (title, amount, category)
 View all expenses
 Get total spending
 Stores data using SQLite database
- Tech Stack
+🏗️ Tech Stack
 Python
 FastAPI
 SQLite
@@ -34,13 +34,13 @@ POST /expense?title=Food&amount=100&category=Groceries
 📋 Get All Expenses
 
 GET /expenses
-Total Spending
+💰 Total Spending
 
 GET /total
- System Flow
+🧠 System Flow
 Plain text
 User → FastAPI → Logic Layer → SQLite → Response
-Future Improvements
+🚀 Future Improvements
 Add date tracking
 Add charts/analytics
 AI expense categorization
